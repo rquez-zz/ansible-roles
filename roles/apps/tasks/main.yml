@@ -1,0 +1,14 @@
+- name: Install Unity Tweak Tool
+  apt: name=unity-tweak-tool update_cache=yes
+- name: Install Ubuntu Restricted Extras
+  apt: name=ubuntu-restricted-extras
+- name: Install BleachBit
+  apt: name=bleachbit
+- name: Download Dropbox
+  get_url: url={{ dropbox_url }} dest={{ home }}/Downloads/dropbox.deb
+- name: Install Dropbox
+  apt: deb={{ home }}/Downloads/dropbox.deb
+- name: Download Chrome
+  get_url: url={{ chrome_url }} dest={{ home }}/Downloads/chrome.deb
+- name: Install Chrome
+  apt: deb={{ home }}/Downloads/chrome.deb

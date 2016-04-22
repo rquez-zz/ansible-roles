@@ -1,0 +1,8 @@
+- hosts: localhost
+  vars:
+    home: /home/ricardo
+    user: ricardo
+  roles:
+    - common
+    - developer
+    - student

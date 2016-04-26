@@ -1,7 +1,8 @@
 - hosts: localhost
+  connection: local
   vars:
-    home: /home/ricardo
-    user: ricardo
+    home: /home/rquez
+    user: rquez 
   roles:
     - common
     - developer

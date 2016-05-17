@@ -2,4 +2,3 @@ dependencies:
   - { role: geerlingguy.nodejs }
   - { role: marvinpinto.docker }
   - { role: Stouts.mongodb }
-  - { role: geerlingguy.ruby }

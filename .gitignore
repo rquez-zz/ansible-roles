@@ -1,2 +1,4 @@
 privateKey
 playbook.yml
+playbook.retry
+googleApiKey.json

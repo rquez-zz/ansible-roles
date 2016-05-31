@@ -6,6 +6,8 @@
   copy: src=privateKey dest={{ home }}/Workspace/rpgify/privateKey mode=0777
 - name: Copy Google API Key
   copy: src=googleApiKey.json dest={{ home }}/Workspace/rpgify mode=0777
+- name: install g++
+  apt: name=g++ state=present
 - name: Install NPM Modules
   npm: path={{ home }}/Workspace/rpgify
   

@@ -1,5 +1,4 @@
 dependencies:
   - { role: geerlingguy.nodejs }
-  - { role: ansiblebit.launchpad-ppa-webupd8 }
-  - { role: ansiblebit.oracle-java }
-  - { role: Stouts.mongodb }
+  - { role: kbrebanov.java }
+  - { role: tecris.maven }

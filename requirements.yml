@@ -1,4 +1,4 @@
-- src: ansiblebit.launchpad-ppa-webupd8
-- src: ansiblebit.oracle-java
 - src: geerlingguy.nodejs
+- src: kbrebanov.java
 - src: Stouts.mongodb
+- src: tecris.maven
